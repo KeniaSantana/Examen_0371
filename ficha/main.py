@@ -80,13 +80,7 @@ Modalidad de Pago: {modalidad_pago.value}
 Nivel de Experiencia:{deslizador.value}
 """
 
-        resumen.value = texto
-        resumen.color = ft.Colors.RED
-
-        lista_eventos.controls.append(
-            ft.Text(texto)
-        )
-        
+    
     boton = ft.ElevatedButton(
         "Registrar",
         on_click=mostrar_resumen,
