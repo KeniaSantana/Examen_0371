@@ -9,12 +9,12 @@ def main(page: ft.Page):
                     weight=ft.FontWeight.BOLD,
                     text_align=ft.TextAlign.CENTER)
     
-    nombre=ft.TextFiel(
+    nombre=ft.TextField(
         label="Nombre",
         hint_text="Ingresa tu nombre"
         
     )
-    correo=ft.TextFiel(
+    correo=ft.TextField(
         label="Correo",
         hint_text="Ingresa tu correo"
         
