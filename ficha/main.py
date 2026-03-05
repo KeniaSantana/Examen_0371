@@ -64,7 +64,7 @@ def main(page: ft.Page):
     )
     
     final = ft.Text("Gracias por tu registro",
-                    size=30, 
+                    size=20, 
                     weight=ft.FontWeight.BOLD,
                         color=ft.Colors.BLUE,
                     text_align=ft.TextAlign.CENTER)
