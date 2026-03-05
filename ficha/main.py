@@ -50,6 +50,18 @@ def main(page: ft.Page):
         value=1,
         label="{value}"
     )
+    
+    
+    lista_eventos = ft.ListView(
+        expand=True,
+        spacing=10,
+        height=200
+    )
+
+    resumen = ft.Text(
+        size=15,
+        color=ft.Colors.RED,
+    )
 
 
 ft.run(main)
